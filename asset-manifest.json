@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Zaladgan/static/css/main.4c6f5ed1.chunk.css",
-    "main.js": "/Zaladgan/static/js/main.5d421c01.chunk.js",
-    "main.js.map": "/Zaladgan/static/js/main.5d421c01.chunk.js.map",
+    "main.css": "/Zaladgan/static/css/main.f60855ac.chunk.css",
+    "main.js": "/Zaladgan/static/js/main.755439eb.chunk.js",
+    "main.js.map": "/Zaladgan/static/js/main.755439eb.chunk.js.map",
     "runtime-main.js": "/Zaladgan/static/js/runtime-main.0e4af541.js",
     "runtime-main.js.map": "/Zaladgan/static/js/runtime-main.0e4af541.js.map",
-    "static/js/2.89990180.chunk.js": "/Zaladgan/static/js/2.89990180.chunk.js",
-    "static/js/2.89990180.chunk.js.map": "/Zaladgan/static/js/2.89990180.chunk.js.map",
+    "static/js/2.6ab3e8ae.chunk.js": "/Zaladgan/static/js/2.6ab3e8ae.chunk.js",
+    "static/js/2.6ab3e8ae.chunk.js.map": "/Zaladgan/static/js/2.6ab3e8ae.chunk.js.map",
     "index.html": "/Zaladgan/index.html",
-    "static/css/main.4c6f5ed1.chunk.css.map": "/Zaladgan/static/css/main.4c6f5ed1.chunk.css.map",
-    "static/js/2.89990180.chunk.js.LICENSE.txt": "/Zaladgan/static/js/2.89990180.chunk.js.LICENSE.txt",
+    "static/css/main.f60855ac.chunk.css.map": "/Zaladgan/static/css/main.f60855ac.chunk.css.map",
+    "static/js/2.6ab3e8ae.chunk.js.LICENSE.txt": "/Zaladgan/static/js/2.6ab3e8ae.chunk.js.LICENSE.txt",
     "static/media/about-me.jpg": "/Zaladgan/static/media/about-me.42bf08ae.jpg",
     "static/media/bedbugrx.PNG": "/Zaladgan/static/media/bedbugrx.6dcaa85d.PNG",
     "static/media/bookreading.PNG": "/Zaladgan/static/media/bookreading.5095c196.PNG",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0e4af541.js",
-    "static/js/2.89990180.chunk.js",
-    "static/css/main.4c6f5ed1.chunk.css",
-    "static/js/main.5d421c01.chunk.js"
+    "static/js/2.6ab3e8ae.chunk.js",
+    "static/css/main.f60855ac.chunk.css",
+    "static/js/main.755439eb.chunk.js"
   ]
 }
