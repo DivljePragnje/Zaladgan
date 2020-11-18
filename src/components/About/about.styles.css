@@ -19,6 +19,10 @@
 .about-image {
   justify-self: center;
   grid-column: 1/3;
+  height: 350px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
 }
 
 .about-text {

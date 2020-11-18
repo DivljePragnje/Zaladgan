@@ -2,13 +2,19 @@ import React from "react";
 import "./about.styles.css";
 
 class About extends React.Component {
+  imageUrl = require(`../../images/about-me.jpg`);
+
   render() {
+    console.log(this.imageUrl);
     return (
       <div className="about-wrapper">
         <h1 className="about-header">ABOUT ME</h1>
-        <div className="about-image">
-          <img src={"./images/about-me.jpg"} />
-        </div>
+        <div
+          className="about-image"
+          style={{
+            backgroundImage: `url(${this.imageUrl.default})`,
+          }}
+        ></div>
 
         <div className="about-text">
           <p>
