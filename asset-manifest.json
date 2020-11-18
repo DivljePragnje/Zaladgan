@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/https//divljepragnje.github.io/zaladgan/static/css/main.4c6f5ed1.chunk.css",
+    "main.js": "/https//divljepragnje.github.io/zaladgan/static/js/main.5d421c01.chunk.js",
+    "main.js.map": "/https//divljepragnje.github.io/zaladgan/static/js/main.5d421c01.chunk.js.map",
+    "runtime-main.js": "/https//divljepragnje.github.io/zaladgan/static/js/runtime-main.6982b7e8.js",
+    "runtime-main.js.map": "/https//divljepragnje.github.io/zaladgan/static/js/runtime-main.6982b7e8.js.map",
+    "static/js/2.89990180.chunk.js": "/https//divljepragnje.github.io/zaladgan/static/js/2.89990180.chunk.js",
+    "static/js/2.89990180.chunk.js.map": "/https//divljepragnje.github.io/zaladgan/static/js/2.89990180.chunk.js.map",
+    "index.html": "/https//divljepragnje.github.io/zaladgan/index.html",
+    "static/css/main.4c6f5ed1.chunk.css.map": "/https//divljepragnje.github.io/zaladgan/static/css/main.4c6f5ed1.chunk.css.map",
+    "static/js/2.89990180.chunk.js.LICENSE.txt": "/https//divljepragnje.github.io/zaladgan/static/js/2.89990180.chunk.js.LICENSE.txt",
+    "static/media/about-me.jpg": "/https//divljepragnje.github.io/zaladgan/static/media/about-me.42bf08ae.jpg",
+    "static/media/bedbugrx.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/bedbugrx.6dcaa85d.PNG",
+    "static/media/bookreading.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/bookreading.5095c196.PNG",
+    "static/media/campusministry.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/campusministry.ee64fb37.PNG",
+    "static/media/carcoffee.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/carcoffee.4f216739.PNG",
+    "static/media/contact-bg.jpg": "/https//divljepragnje.github.io/zaladgan/static/media/contact-bg.860e23bc.jpg",
+    "static/media/kavalri.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/kavalri.cf83f259.PNG",
+    "static/media/labcompany.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/labcompany.0cd124db.PNG",
+    "static/media/leagleai.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/leagleai.5bf28276.PNG",
+    "static/media/lijit.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/lijit.ec05c010.PNG",
+    "static/media/lunde.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/lunde.79e42bbb.PNG",
+    "static/media/pointloadpower.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/pointloadpower.dcd559e1.PNG",
+    "static/media/resurge.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/resurge.98b9c5c6.PNG",
+    "static/media/trearteag.PNG": "/https//divljepragnje.github.io/zaladgan/static/media/trearteag.caccc2a7.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6982b7e8.js",
+    "static/js/2.89990180.chunk.js",
+    "static/css/main.4c6f5ed1.chunk.css",
+    "static/js/main.5d421c01.chunk.js"
+  ]
+}
