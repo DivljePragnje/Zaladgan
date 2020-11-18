@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+  height: 100vh;
+  width: 90px;
+  z-index: 2;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label #btn,
+label #cancel {
+  position: fixed;
+  top: 50%;
+  font-size: 35px;
+  padding-left: 30px;
+  color: rgb(36, 36, 36);
+  cursor: pointer;
+}
+
+label #btn {
+  transition: all 0.5s;
+}
+
+label #cancel {
+  transition: all 0.5s;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ label #btn {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+  opacity: 1;
+}
+
+#check:not(:checked) ~ label #btn {
+  opacity: 1;
+}
+
+#check:not(:checked) ~ label #cancel {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  position: fixed;
+  left: -170px;
+  width: 250px;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s ease;
+  background: rgb(247, 247, 247);
+  color: rgb(150, 150, 150);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar header {
+  align-self: center;
+  justify-self: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sidebar ul a {
+  display: block;
+  color: rgb(150, 150, 150);
+  transition: 0.5s;
+}
+.sidebar ul li {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sidebar ul li {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sidebar footer {
+  align-self: center;
+  justify-self: center;
+}
+
+ul li:hover a {
+  color: rgb(240, 67, 126);
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.social-media a {
+  color: rgb(150, 150, 150);
+}
+
+.social-media a:hover {
+  transition: 0.5s;
+  color: rgb(240, 67, 126);
+}

@@ -1,0 +1,118 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #222222;
+}
+
+.contact-header {
+  font-size: 50px;
+  color: rgb(240, 67, 126);
+}
+
+form {
+  width: 25%;
+}
+
+@media only screen and (max-width: 1200px) {
+  form {
+    width: 75%;
+  }
+}
+
+.form-input {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+}
+
+.form-field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(240, 67, 126);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form-field::placeholder {
+  color: transparent;
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form-field:placeholder-shown ~ .form-label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form-field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-color: rgb(240, 67, 126);
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: rgb(240, 67, 126);
+  font-weight: 700;
+}
+
+.form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+}
+
+button {
+  margin-top: 25px;
+  padding: 10px 25px;
+  background-color: rgb(240, 67, 126);
+  border: none;
+  color: rgb(240, 67, 126);
+  font-size: 28px;
+  transition: 0.1s;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+}
+
+button:hover {
+  size: 10px;
+  background-color: rgb(240, 67, 126);
+  color: black;
+  border-radius: 10px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
